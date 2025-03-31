@@ -1,22 +1,19 @@
-const accountId = 144553
-let accountEmail = "hitesh@google.com"
-var accountPassword = "12345"
-accountCity = "Jaipur"
-let accountState;
+const accountId  = 170404
+let accountEmail = "div17@gmail.com"
+var accountPw = "1234567"
+accountCity = "ghaziabad"
+let accountState
 
-// accountId = 2 // not allowed
+// accountId = 2  //TypeError: Assignment to constant variable.
 
-
-accountEmail = "hc@hc.com"
-accountPassword = "21212121"
-accountCity = "Bengaluru"
+accountEmail = "deep7@kiet.edu"
+accountPw = "7654321"
+accountCity = "delhi"
 
 console.log(accountId);
+console.table([accountId, accountEmail, accountPw, accountCity, accountState])
 
 /*
-Prefer not to use var
-because of issue in block scope and functional scope
+prefer not to use var
+becoz of issue in block and functional scope
 */
-
-
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
